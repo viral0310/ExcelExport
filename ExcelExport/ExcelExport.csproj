@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="26.2.7" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="26.2.7" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="26.2.7" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="26.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DetailsViewExcelExporting">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\DetailsViewExcelExporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Data.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.DataSource.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.GridCommon.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.SfDataGrid.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGridConverter.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.SfDataGridConverter.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.SfInput.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.SfListView.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\Syncfusion.XlsIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.AttributedModel">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\System.Composition.AttributedModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Convention">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\System.Composition.Convention.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Hosting">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\System.Composition.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Runtime">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\System.Composition.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.TypedParts">
+      <HintPath>..\..\..\..\..\Public\Documents\Syncfusion\Windows\26.1.35\datagrid\DetailsViewExcelExporting\CS\bin\Debug\net7.0-windows\System.Composition.TypedParts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
